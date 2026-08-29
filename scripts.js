@@ -10,7 +10,7 @@ const encounter = {
             text: "Sorry, I'm not interested.",
             result: "Wrong answer pal! You're helping me make a cake."
         },
-    ]
+    ],
     text: "I have no idea how to bake a cake, so I’m gonna need a recipe first. Lets look around the kitchen to see if there’s one around.",
     
     //code for pressing recipe in hidden in kitchen
@@ -20,24 +20,24 @@ const encounter = {
         {
             text: "Sounds yummy!",
             result: "Great! I love strawberries too."
-        }
+        },
         {
             text: "Ewww! I hate strawberry shortcake :(",
             result: "Well that's too bad, because that's what we're gonna make!"
         }
-    ]
+    ],
     text: "Okay, let's read over the recipe first.",
     choices: [
         {
             text: "Wait, I don't know how to bake, but it looks all wrong! Why does it say to put the strawberries on the cake before we even bake it??",
             result: "Oh wait! You're right. I think we need to unscramble it!"
-        }
+        },
         {
             text: "Okay, looks good to me! Let's go to the supermarket and grab the ingredients.",
             result: "No, dummy! It's obviously all wrong. We need to unscramble the steps first!"
 
         }
-    ]
+    ],
 
     //code for unscrambling the recipe
 
@@ -49,28 +49,28 @@ const encounter = {
         {
             text: "Yay! I'm ready.",
             result: "Great! Let's start with the dairy section."
-        }
+        },
         {
             text: "I'm so tired after the ride though... Can we take a break first?",
             result: "Awwww, that's too bad for you. We need to get started, lazybones!"
         }
-    ]
+    ],
     text: "Hmmm, where could the dairy section be?",
 
     /* code for finding the dairy section
     maybe a thing where you have to click on the right aisle? */
 
-    text: "We found the dairy section! Now, let's check the ingredients on the list to see what we need for here."
+    text: "We found the dairy section! Now, let's check the ingredients on the list to see what we need for here.",
     choices: [
         {
             text: "We need eggs, milk, butter, heavy cream, half-and-half.",
             result: "Yup! Sounds right."
-        }
+        },
         {
             text: "We need flour, sugar, baking powder, vanilla extract, powdered sugar.",
             result: "Wrong, stupid! Those are all in the baking section. The eggs, milk, butter, heavy cream, half-and-half should be here."
         }
-    ]
+    ],
     text: "Wow, this fridge door is so hard to open!",
     
     //code for opening the fridge door
@@ -164,3 +164,5 @@ function renderscram (){
         }
     renderWord();
 }
+
+//HOLDSSSS
