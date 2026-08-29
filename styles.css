@@ -12,4 +12,27 @@ body {
 
 #screen {
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+    box-sizing: border-box;
 }
+
+#screen p {
+    font-size: 24px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+button {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 8px;
+    cursor: pointer;
+}
+
