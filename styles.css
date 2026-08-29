@@ -1,0 +1,10 @@
+body {
+    background-image: url(Your\ paragraph\ text.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+    font-family: "Varela round", sans-serif;
+    text-align: center;
+    margin: 30px;
+}
